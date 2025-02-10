@@ -6,7 +6,7 @@ metadata:
   labels:
     service: customer
 spec:
-  replicas: 3
+  replicas: 0
   selector:
     matchLabels:
       service: customer
